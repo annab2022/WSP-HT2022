@@ -10,6 +10,7 @@ echo "Hello";
 		</head>
 		<body>
             <ul>
+                <li>Monday med </li>
                 <li>Tuersday</li>
                 <li>Wednesday</li>
             </ul>
