@@ -2,6 +2,7 @@
 
 echo "hejsan hoppsan";
 echo "tjosan hejsan";
+echo "weehooo";
 ?>
 
 
