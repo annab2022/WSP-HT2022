@@ -1,3 +1,10 @@
+<?php
+
+echo "hejsan hoppsan";
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,3 +17,4 @@
     
 </body>
 </html>
+
