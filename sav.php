@@ -1,4 +1,5 @@
 <?php
 
 echo "good-bye cruel world";
-echo "Hejsansvejsan";
+echo "I like cute dogs too !!!";
+
