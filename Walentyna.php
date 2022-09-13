@@ -10,11 +10,10 @@ echo "Hello";
 		</head>
 		<body>
             <ul>
-                <li>Monday</li>
                 <li>Tuersday</li>
                 <li>Wednesday</li>
             </ul>
 </body>
-
-echo"Hello Walentina! bra jobbat !!!  ";
-
+<?php
+    echo"Hello Walentina! bra jobbat !!!  ";
+?>
