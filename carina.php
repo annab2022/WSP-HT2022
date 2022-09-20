@@ -1,8 +1,9 @@
 <?php
 
 echo "hejsan hoppsan";
-echo "tjosan hejsan";
-echo "weehooo";
+echo "tjosan hej Sav";
+echo "weehooohaaaahoooooo";
+echo "weehooo tjena carina";
 ?>
 
 
