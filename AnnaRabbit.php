@@ -1,4 +1,4 @@
-<?php hello
+<?php
 declare(strict_types=1);
 
 function getRabbitFurColor(bool $sun, bool $wind) : string {
