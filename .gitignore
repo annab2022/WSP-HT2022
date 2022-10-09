@@ -1,2 +1,4 @@
 *.txt
-unittest
+composer.lock
+vendor
+.DS_Store
