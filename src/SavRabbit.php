@@ -1,6 +1,5 @@
 <?php
 declare(strict_types=1);
-require __DIR__ . '/../vendor/autoload.php';
 
 function getRabbitFurColor(bool $sun, bool $wind) : string {
     $rabbitFur = "red";
