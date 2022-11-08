@@ -39,4 +39,16 @@ class WalentynaRabbit {
 $feeling = getRabbitFeeling(true, false);
 printRabbit($feeling);
 
+//-----------------------------
+
+$feeling = getRabbitFeeling(true, false);
+- true/false -> happy
+- true/true -> happy
+- false/false -> sad
+- false/true -> angry
+
+
+
+printRabbit($feeling);
+
 ?>
