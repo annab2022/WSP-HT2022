@@ -1,29 +1,42 @@
 <?php
+declare(strict_types=1);
+require __DIR__ . '/../vendor/autoload.php'; 
+//$email = Email::fromString("carina@mail.se");// hämta variabel från en fil i mappen (utan att behöva include php-fil)
+//var_dump($email);
+class CarinaRabbit {    
+    function getRabbitFurColor(bool $sun, bool $wind) : string {
+        $rabbitFur = "red";
+        if($sun == true) {
+                $rabbitFur = "green";
+            } 
+            else if($wind == false) {
+                $rabbitFur = "blue";  
+            }
+            return $rabbitFur;
+    }   
+        function getRabbitFeeling(bool $sun, bool $wind) : string {
+            $rabbitColor = getRabbitFurColor($sun, $wind);
+            switch($rabbitColor) {
+                case "red":
+                    $rabbitFeeling="angry";
+                     break;
+                case "blue":
+                    $rabbitFeeling="sad";
+                    break;
+                case "green":
+                    $rabbitFeeling="happy";
+                    break;
+            }
+            return $rabbitFeeling;
+        }
 
-echo "hejsan hoppsan";
-echo "tjosan hej Sav";
-echo "weehooohaaaahoooooo";
-echo "weehooo tjena carina";
-echo "Hello Carina!";
+        public function printRabbit($m) {
+            echo "Haren känner sig " . $m . ".";  
+        }  
+
+        $feeling = getRabbitFeeling(true, false);
+        printRabbit($feeling);
+        
+}
+
 ?>
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <?php
-        require __DIR__ . '/../vendor/autoload.php'; 
-    $email = Email::fromString("carina@mail.se");// hämta variabel från en fil i mappen (utan att behöva include php-fil)
-    var_dump($email);
-    ?>
-</head>
-<body>
-    
-</body>
-</html>
-
