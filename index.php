@@ -9,7 +9,9 @@ require __DIR__ . '/vendor/autoload.php';
 
 
 // Walentyna
-
+$rabbit = new WalentynaRabbit();
+$feeling = $rabbit->getRabbitFeeling(true, false);
+$rabbit->printRabbit($feeling);
 
 // Sav
 

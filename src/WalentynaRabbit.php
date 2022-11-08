@@ -1,6 +1,8 @@
 <?php
 declare(strict_types=1);
+
 class WalentynaRabbit {
+
     private function getRabbitFurColor(bool $sun, bool $wind) : string {
         $rabbitFur = "red";
         if($sun == true) {
@@ -13,7 +15,7 @@ class WalentynaRabbit {
     }
 
     public function getRabbitFeeling(bool $sun, bool $wind) : string {
-        $rabbitColor = getRabbitFurColor($sun, $wind);
+        $rabbitColor = $this-> getRabbitFurColor($sun, $wind);
 
         switch($rabbitColor) {
             case "red":
@@ -39,16 +41,5 @@ class WalentynaRabbit {
 $feeling = getRabbitFeeling(true, false);
 printRabbit($feeling);
 
-//-----------------------------
-
-$feeling = getRabbitFeeling(true, false);
-- true/false -> happy
-- true/true -> happy
-- false/false -> sad
-- false/true -> angry
-
-
-
-printRabbit($feeling);
 
 ?>
