@@ -62,6 +62,7 @@ final class WalentynaRabbitTest extends TestCase {
         $this->assertFalse($result);
     }
 }
+
 /*true/false = happy
 true/true = happy
 false/false = sad
