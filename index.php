@@ -1,5 +1,6 @@
 <?php
-require __DIR__ . '/vendor/autoload.php';
+//require __DIR__ . '/vendor/autoload.php';
+//die("Hej!");
 
 //$rabbit = new AnnaRabbit();
 //$feeling = $rabbit->getRabbitFeeling(true, false);

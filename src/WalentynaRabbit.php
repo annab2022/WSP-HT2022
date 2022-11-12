@@ -1,5 +1,6 @@
 <?php
 declare(strict_types=1);
+require __DIR__ . '/../vendor/autoload.php';
 
 class WalentynaRabbit {
 
@@ -36,6 +37,12 @@ class WalentynaRabbit {
     public function printRabbit($m) {
         echo "Haren känner sig " . $m . ".";    
     }
+    public function isNumber($number): bool {
+        return is_numeric($numer);
+    }
+    
+    
+
 }
 
 $feeling = getRabbitFeeling(true, false);
