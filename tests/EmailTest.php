@@ -3,6 +3,10 @@ use PHPUnit\Framework\TestCase;
 
 final class EmailTest extends TestCase
 {
+    public function setUp() : void {
+        //$this->markTestSkipped("later aligator");
+    }
+
     public function testCanBeCreatedFromValidEmailAddress(): void
     {
         $this->assertInstanceOf(
