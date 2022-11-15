@@ -39,6 +39,23 @@ class SavRabbit {
             echo "Haren känner sig " . $m . ".";    
         }
 
+        public function isNumber($number) : bool {
+
+            return is_numeric($number);
+
+        }
+
+
+        /*
+        
+        bokstäver -> false
+        siffror -> true
+        siffror och bokstäver i en string - false
+        null - false
+        siffror i en string -> true
+
+        
+        */
 }
 
 ?>

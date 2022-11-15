@@ -38,16 +38,3 @@ class AnnaRabbit {
         echo "Haren känner sig " . $m . ".";    
     }
 }
-//-----------------------------
-
-$feeling = getRabbitFeeling(true, false);
-- true/false -> happy
-- true/true -> happy
-- false/false -> sad
-- false/true -> angry
-
-
-
-printRabbit($feeling);
-
-?>
