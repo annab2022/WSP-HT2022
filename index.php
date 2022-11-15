@@ -8,6 +8,10 @@
 
 // Carina
 
+$rabbit = new CarinaRabbit();
+$feeling = $rabbit->getRabbitFeeling(true, false);
+$rabbit->printRabbit($feeling);
+
 
 // Walentyna
 $rabbit = new WalentynaRabbit();
